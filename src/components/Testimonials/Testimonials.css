@@ -1,0 +1,15 @@
+.testimonials {
+    width: 100%;
+}
+
+.testimonials .content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5%;
+}
+
+.testimonial img {
+    border-radius: 50%;
+}
