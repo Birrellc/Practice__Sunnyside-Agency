@@ -1,0 +1,82 @@
+.info {
+    width: 100%;
+    height: 100%;
+}
+
+.info .content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.info .content .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.info .content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info .content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .content2 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.info .content2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info .content3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: url('../../../images/mobile/image-graphic-design.jpg')no-repeat center center/cover;
+}
+
+.info .content3 .text {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.info .content4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: url('../../../images/mobile/image-photography.jpg') no-repeat center center/cover;
+}
+
+.info .content4 .text {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
