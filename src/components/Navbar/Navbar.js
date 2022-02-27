@@ -26,7 +26,9 @@ const Navbar = () => {
           <li>About</li>
           <li>Services</li>
           <li>Projects</li>
-          <li>Contacts</li>
+          <li>
+            <a>Contacts</a>
+          </li>
         </ul>
         <div onClick={handleNav} className='hamburger'>
           {!nav ? <FaBars className='icon' /> : <FaTimes className='icon' />}
