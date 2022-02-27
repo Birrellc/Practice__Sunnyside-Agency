@@ -8,16 +8,6 @@
     flex-direction: column-reverse;
 }
 
-.info .content .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 300px;
-    text-align: center;
-    margin: 20px;
-}
-
 .info .content img {
     height: 100%;
     width: 100%;
@@ -29,14 +19,14 @@
     flex-direction: column;
 }
 
-.info .content2 .text {
+.text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 300px;
     text-align: center;
-    margin: 20px;
+    margin: 20 0px;
 }
 
 .info .content2 img {
@@ -61,6 +51,8 @@
     transform: translateX(-50%);
     text-align: center;
     width: 100%;
+    padding: 10%;
+    color: hsl(167, 40%, 24%);
 }
 
 .info .content4 {
@@ -72,6 +64,11 @@
     background: url('../../../images/mobile/image-photography.jpg') no-repeat center center/cover;
 }
 
+.info-text {
+    color: hsl(232, 10%, 55%);
+    line-height: 1.8rem;
+}
+
 .info .content4 .text {
     position: absolute;
     bottom: 2rem;
@@ -79,4 +76,53 @@
     transform: translateX(-50%);
     text-align: center;
     width: 100%;
+    padding: 10%;
+    color: hsl(198, 62%, 26%);
+}
+
+.info-heading {
+    font-size: 1.8rem;
+    padding: 10%;
+    color: hsl(167, 40%, 24%);
+}
+
+.info-heading2 {
+    font-size: 1.8rem;
+    padding: 10%;
+    color: hsl(198, 62%, 26%);
+}
+
+.info-heading-one {
+    color: #23303e;
+}
+
+.text a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 8px;
+    color: hsl(212, 27%, 19%);
+}
+
+.text a:before {
+    content: "";
+    width: 100%;
+    color: hsl(51, 100%, 49%);
+    border-bottom: 8px solid;
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: .6;
+}
+
+.text a:hover:before {
+    opacity: 1;
+}
+
+.link:before {
+    border-bottom: 8px solid hsl(7, 99%, 70%);
+    ;
 }
