@@ -6,8 +6,8 @@ const Testimonials = () => {
     <div className='testimonials'>
       <div className='container'>
         <div className='content'>
-          <div>
-            <h3>Client Testimonials</h3>
+          <div className='testimonial-header'>
+            <h3>CLIENT TESTIMONIALS</h3>
           </div>
           <div className='testimonial'>
             <div className='testimonial-image'>
@@ -19,9 +19,9 @@ const Testimonials = () => {
                 our needs were met and deadlines were always hit.
               </p>
             </div>
-            <div className='testimonial-name'>
-              <p>Emily R. </p>
-              <p>Marketing Director</p>
+            <div>
+              <p className='testimonial-name'>Emily R. </p>
+              <p className='testimonial-role'>Marketing Director</p>
             </div>
           </div>
           <div className='testimonial'>
@@ -34,9 +34,9 @@ const Testimonials = () => {
                 brand’s success made it a satisfying and enjoyable experience.
               </p>
             </div>
-            <div className='testimonial-name'>
-              <p>Thomas S. </p>
-              <p>Chief Operating Officer</p>
+            <div>
+              <p className='testimonial-name'>Thomas S. </p>
+              <p className='testimonial-role'>Chief Operating Officer</p>
             </div>
           </div>
           <div className='testimonial'>
@@ -49,9 +49,9 @@ const Testimonials = () => {
                 worked with Sunnyside. Highly recommended!
               </p>
             </div>
-            <div className='testimonial-name'>
-              <p>Jennie F.. </p>
-              <p>Business Owner</p>
+            <div>
+              <p className='testimonial-name'>Jennie F. </p>
+              <p className='testimonial-role'>Business Owner</p>
             </div>
           </div>
         </div>
