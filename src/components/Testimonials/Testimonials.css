@@ -10,6 +10,25 @@
     padding: 2.5%;
 }
 
+.testimonial-header h3 {
+    color: hsl(210, 4%, 67%);
+    padding: 5% 0;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.2rem;
+}
+
+.testimonial-test p {
+    color: hsl(232, 10%, 55%);
+    text-align: center;
+    padding: 8% 0;
+}
+
+.testimonial-role {
+    padding-top: 5%;
+    color: hsl(210, 4%, 67%);
+    font-size: 1rem;
+}
+
 .testimonial img {
     border-radius: 50%;
 }
