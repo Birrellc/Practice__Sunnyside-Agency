@@ -18,7 +18,9 @@ h6 {
 }
 
 body {
+  color: #23303e;
   font-size: 18px;
+  line-height: 1.8rem;
   margin: 0;
   font-family: 'Barlow', sans-serif;
   -webkit-font-smoothing: antialiased;
