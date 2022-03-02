@@ -3,9 +3,183 @@
     height: 100%;
 }
 
-.info .content {
+.info p {
+    text-align: center;
+}
+
+.info .content .set-one {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.info .content img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.info .content .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+}
+
+.info-heading-one {
+    width: 60%;
+}
+
+.info .info-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    text-align: left;
+    width: 60%;
+}
+
+.info .content .set-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.info .content .group {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .content .group .set-three {
+    width: 100%;
+    height: 75vh;
+    background: url('../../../images/desktop/image-graphic-design.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info .content .group .set-four {
+    width: 100%;
+    height: 75vh;
+    background: url('../../../images/desktop/image-photography.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info .set-three div {
+    padding-top: 40%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: hsl(167, 40%, 24%);
+}
+
+.info .set-four div {
+    padding-top: 40%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: hsl(198, 62%, 26%);
+}
+
+.info .graphic-text,
+.info .photography-text {
+    width: 80%;
+}
+
+.info .set-four h3,
+.info .set-three h3 {
+    margin-bottom: 20px;
+}
+
+.text a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 8px;
+    color: hsl(212, 27%, 19%);
+}
+
+.text a:before {
+    content: "";
+    width: 100%;
+    color: hsl(51, 100%, 49%);
+    border-bottom: 8px solid;
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: .6;
+}
+
+.text a:hover:before {
+    opacity: 1;
+}
+
+.link-2:before {
+    border-bottom: 8px solid hsl(7, 99%, 70%) !important;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    p {
+        text-align: center;
+    }
+
+    .info .content .set-one {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .info .content img {
+        object-fit: cover;
+        width: 50%;
+    }
+
+    .info .content .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .info .content .set-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .info .content .group {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info .content .group .set-four,
+    .info .content .group .set-three {
+        width: 50%;
+    }
+}
+
+
+/* .info .content {
+    display: flex;
+    flex-direction: row;
 }
 
 .info .content img {
@@ -34,8 +208,8 @@
     width: 100%;
     object-fit: cover;
 }
-
-.info .content3 {
+*/
+/* .info .content3 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -94,35 +268,4 @@
 
 .info-heading-one {
     color: #23303e;
-}
-
-.text a {
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    position: relative;
-    padding: 8px;
-    color: hsl(212, 27%, 19%);
-}
-
-.text a:before {
-    content: "";
-    width: 100%;
-    color: hsl(51, 100%, 49%);
-    border-bottom: 8px solid;
-    position: absolute;
-    bottom: 8px;
-    left: 0px;
-    z-index: -1;
-    border-radius: 10px;
-    opacity: .6;
-}
-
-.text a:hover:before {
-    opacity: 1;
-}
-
-.link:before {
-    border-bottom: 8px solid hsl(7, 99%, 70%);
-    ;
-}
+} */
