@@ -18,9 +18,12 @@ h6 {
   font-family: 'Fraunces', serif;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   color: #23303e;
-  font-size: 18px;
   line-height: 1.8rem;
   margin: 0;
   font-family: 'Barlow', sans-serif;
