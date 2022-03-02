@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 import './NavbarStyles.css';
 
 const Navbar = () => {
@@ -23,11 +24,25 @@ const Navbar = () => {
         </div>
 
         <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
           <li>
-            <a>Contacts</a>
+            <Link to='about' spy={true} smooth={true}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to='services' spy={true} smooth={true}>
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link to='projects' spy={true} smooth={true}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to='contact' spy={true} smooth={true}>
+              Contact
+            </Link>
           </li>
         </ul>
         <div onClick={handleNav} className='hamburger'>

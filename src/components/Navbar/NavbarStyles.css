@@ -28,17 +28,22 @@
     z-index: 5;
 }
 
-.navbar .nav-menu {
-    display: flex;
-    padding: 1rem;
-    color: hsl(213, 9%, 39%)
-}
-
 .navbar li {
     padding: 1rem;
     font-weight: 600;
     display: flex;
     align-items: center;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    padding: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: hsl(213, 9%, 39%);
+    cursor: pointer;
 }
 
 li:last-child {
@@ -58,7 +63,7 @@ li:last-child a {
     font-size: 2rem;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 767px) {
     .navbar .hamburger {
         display: block;
     }
@@ -88,8 +93,23 @@ li:last-child a {
         right: 0;
     }
 
+    li a {
+        text-decoration: none;
+        color: hsl(213, 9%, 39%);
+    }
+
 
     .navbar .active {
         left: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    li a {
+        color: #fff;
+    }
+
+    li:last-child a {
+        background-color: #fff;
     }
 }
