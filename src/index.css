@@ -6,6 +6,7 @@ font-family: 'Fraunces', serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 h1,
@@ -33,6 +34,8 @@ code {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
   width: 100%;
   margin: auto;
   height: 100%;
