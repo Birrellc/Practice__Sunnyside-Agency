@@ -3,12 +3,12 @@ import './InfoStyles.css';
 
 const Info = () => {
   return (
-    <div className='info'>
+    <div id='about' className='info'>
       <div className='container'>
         <div className='content'>
           <div className='set-one'>
             <img src={require('./images/image-transform.jpg')} alt='' />
-            <div className='text'>
+            <div className='text padding'>
               <h2 className='info-heading-one'>Transform your brand</h2>
 
               <p className='info-text'>
@@ -25,7 +25,7 @@ const Info = () => {
           </div>
           <div className='set-two'>
             <img src={require('./images/image-stand-out.jpg')} alt='' />
-            <div className='text'>
+            <div className='text padding'>
               <h2 className='info-heading-one'>
                 Stand out to the right audience
               </h2>
@@ -39,9 +39,9 @@ const Info = () => {
               </a>
             </div>
           </div>
-          <div className='group'>
+          <div id='services' className='group'>
             <div className='set-three'>
-              <div className='text'>
+              <div className='text-2'>
                 <h3 className='info-heading-two'>Graphic Design</h3>
                 <p className='graphic-text'>
                   Great design makes you memorable. We deliver artwork that
@@ -52,7 +52,7 @@ const Info = () => {
             </div>
 
             <div className='set-four'>
-              <div className='text'>
+              <div className='text-2'>
                 <h3 className='info-heading-three'>Photography</h3>
                 <p className='photography-text'>
                   Increase your credibility by getting the most stunning,
